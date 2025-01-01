@@ -13,7 +13,7 @@ const CecrMethodTile = ({
   const [show, setShow] = React.useState(isOpened || false);
   return (
     <div
-      className="px-md-5 py-md-4 p-2 mb-2"
+      className="px-md-5 py-md-4 p-2 pt-3 mb-2"
       style={{
         borderRadius: "6px",
         backgroundColor: bgColor,
@@ -23,13 +23,19 @@ const CecrMethodTile = ({
         className="d-flex justify-content-center align-items-center"
         onClick={() => setShow(!show)}
       >
-        <p className="cecr-title m-0">
+        <span className=" para m-0 text-white pb-2">
           <b>{title}</b>
-        </p>
+        </span>
       </div>
       {show && (
         <div>
-          <p className="cecr-title mt-3">
+          <p
+            className="mt-3 p-2"
+            style={{
+              fontSize: "1rem",
+              color: "#fff",
+            }}
+          >
             <b>{firstlevelheading}</b>
             <br />
             {firstleveldesc}

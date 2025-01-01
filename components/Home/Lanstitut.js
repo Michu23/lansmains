@@ -76,7 +76,7 @@ const Lanstitut = () => {
           achieve your career goals and expand your horizons.
         </p>
       </div>
-      <div className="row w-100 mt-5 p-md-5 p-2" style={{ maxWidth: "1300px" }}>
+      <div className="row w-100 mt-0 mt-md-5 p-md-5 p-2" style={{ maxWidth: "1300px" }}>
         <div className="col-md-3 boom">
           <InfoCard
             icon="/icons/hospital.svg"

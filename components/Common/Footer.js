@@ -19,7 +19,7 @@ const Footer = () => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-5">
             <Image
               src="/assets/Logo/IconWhite.svg"
               width={120}
@@ -27,6 +27,11 @@ const Footer = () => {
               alt="Lanstitut Logo"
             />
             <h5 className={styles.logoTitle}>Lanstitut</h5>
+            <p className={styles.footerText}>
+              we foster a culture of continuous learning where we never stop
+              growing. We inspire and support each other, sharing our
+              educational experiences.
+            </p>
 
             <h6 className="mt-5">Connect with Us</h6>
             <div className="d-flex gap-2 py-3">
@@ -46,70 +51,82 @@ const Footer = () => {
                 <FontAwesomeIcon size="2x" icon={faLinkedinIn} />
               </a>
             </div>
+
             <p className={styles.footerText}>
               © 2024 Lanstitut. All rights reserved.
             </p>
           </div>
-          {/* <div className="col-md-2">
-            <h5>Links</h5>
-            <ul className={styles.linkList}>
-              <li className={styles.linkItem}>
-                <a href="#">Home</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Get Started</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Services</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Portfolio</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Corporate</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2">
-            <h5>Others</h5>
-            <ul className={styles.linkList}>
-              <li className={styles.linkItem}>
-                <a href="#">Terms of Service</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Something goes here</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Portfolio</a>
-              </li>
-              <li className={styles.linkItem}>
-                <a href="#">Corporate</a>
-              </li>
-            </ul>
-          </div> */}
-          <div className="col-md-4">
-            <h6>Bangalore</h6>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.220133088917!2d77.7093324!3d12.957761099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1375b902f2bb%3A0x4f2edf61c7c95da4!2sLanstitut%20Language%20Learning!5e0!3m2!1sen!2sin!4v1735309871285!5m2!1sen!2sin"
-              width="100%"
-              height="150"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div className="col-md-7 pt-3">
+            <h5>Address</h5>
+            <div className="row pb-3 mt-3">
+              <div className="col-md-4">
+                <h6 className="">Bangalore:</h6>
 
-            <h6 className="mt-3">Kozhikode</h6>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.220133088917!2d77.7093324!3d12.957761099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1375b902f2bb%3A0x4f2edf61c7c95da4!2sLanstitut%20Language%20Learning!5e0!3m2!1sen!2sin!4v1735309871285!5m2!1sen!2sin"
-              width="100%"
-              height="150"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+                <p className={styles.footerText}>
+                  Spice Garden Layout,
+                  <br />
+                  Lakshminarayana Pura, Chinnapanna Halli,
+                  <br />
+                  Bengaluru, Karnataka 560037
+                </p>
+              </div>
+              <div className="col-md-8">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.220133088917!2d77.7093324!3d12.957761099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1375b902f2bb%3A0x4f2edf61c7c95da4!2sLanstitut%20Language%20Learning!5e0!3m2!1sen!2sin!4v1735309871285!5m2!1sen!2sin"
+                  width="100%"
+                  height="150"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div className="row pb-3">
+              <div className="col-md-4">
+                <h6 className="">Calicut :</h6>
+
+                <p className={styles.footerText}>
+                  2nd floor, KK tower
+                  <br />
+                  Pantheeramkavu Kozhikode Kerala,
+                  <br />
+                  673019
+                </p>
+              </div>
+              <div className="col-md-8">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.220133088917!2d77.7093324!3d12.957761099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1375b902f2bb%3A0x4f2edf61c7c95da4!2sLanstitut%20Language%20Learning!5e0!3m2!1sen!2sin!4v1735309871285!5m2!1sen!2sin"
+                  width="100%"
+                  height="150"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div className="row pb-3">
+              <div className="col-md-4">
+                <h6 className="">Kochi :</h6>
+
+                <p className={styles.footerText}>
+                  62/5011, Iyyattil Junction,
+                  <br />
+                  Shenoys, Kochi, Ernakulam,
+                  <br />
+                  Kerala 682011
+                </p>
+              </div>
+              <div className="col-md-8">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.537977992399!2d76.2856609!3d9.972343799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08735d9132d48f%3A0xb1b6628f1a3fe623!2sLanstitut%20Kochi!5e0!3m2!1sen!2sin!4v1735485567981!5m2!1sen!2sin"
+                  width="100%"
+                  height="150"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>

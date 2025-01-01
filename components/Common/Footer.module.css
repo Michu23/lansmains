@@ -8,7 +8,7 @@
 .footerText {
   color: #ffffff; /* White text color */
   text-align: left !important;
-  margin-top: 10px;
+  line-height: 1.5;
 }
 
 .logoTitle {
