@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Flairs from "./Flairs";
 import IconCombo from "./IconCombo";
-import { Button } from "bootstrap";
 
 const CTA = () => {
   return (

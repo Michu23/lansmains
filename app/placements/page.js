@@ -1,6 +1,5 @@
 import IconCombo from "@/components/Home/IconCombo";
 import Flairs from "@/components/Home/Flairs";
-import "bootstrap/dist/css/bootstrap.min.css";
 import FAQs from "@/components/Home/FAQs";
 import CTA from "@/components/Home/CTA";
 import Roles from "@/components/Placements/Roles";
