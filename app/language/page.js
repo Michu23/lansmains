@@ -113,9 +113,9 @@ export default function Home() {
                 bgColor="rgba(4, 83, 149, 0.50)"
                 isOpened
                 title="A : ELEMENTARY USE OF LANGUAGE"
-                firstlevelheading="A1:"
+                firstlevelheading="Level A1:"
                 firstleveldesc="Can understand and use familiar, everyday expressions and very simple sentences, which relate to the satisfying of concrete needs. Can introduce him/herself and others as well as ask others about themselves."
-                secondlevelheading="A2:"
+                secondlevelheading="Level A2:"
                 secondleveldesc="Can understand sentences and commonly used expressions associated with topics directly related to his/her direct circumstances. Can make him/herself understood in simple, routine situations dealing with a simple and direct exchange of information on familiar and common topics."
               />
             </div>
@@ -123,9 +123,9 @@ export default function Home() {
               <CecrMethodTile
                 bgColor="rgba(4, 83, 149, 0.75)"
                 title="B : INDEPENDENT LANGUAGE USE"
-                firstlevelheading="B1:"
+                firstlevelheading="Level B1:"
                 firstleveldesc="Can understand the main points when clear, standard language is used and the focus is on familiar topics associated with work, school, leisure time, etc. Can deal with most situations typically encountered when traveling in the language region."
-                secondlevelheading="B2:"
+                secondlevelheading="Level B2:"
                 secondleveldesc="Can understand the main ideas of complex text on both concrete and abstract topics, including technical discussions in his/her field of specialization."
               />
             </div>
@@ -133,9 +133,9 @@ export default function Home() {
               <CecrMethodTile
                 bgColor="#045395"
                 title="C : AUTONOMOUS LANGUAGE ABILITY"
-                firstlevelheading="C1:"
+                firstlevelheading="Level C1:"
                 firstleveldesc="Can understand a wide range of demanding, longer texts, and recognize implicit meaning. Can express him/herself fluently and spontaneously without much obvious searching for expressions."
-                secondlevelheading="C2:"
+                secondlevelheading="Level C2:"
                 secondleveldesc="Can understand with ease virtually everything heard or read. Can summarize information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation."
               />
             </div>
