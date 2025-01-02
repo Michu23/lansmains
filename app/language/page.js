@@ -1,4 +1,3 @@
-
 import IconCombo from "@/components/Home/IconCombo";
 import Flairs from "@/components/Home/Flairs";
 import FeatureCard from "@/components/Home/FeatureCard";
@@ -57,7 +56,7 @@ export default function Language() {
             }}
           >
             {countries.map((country) => (
-              <div className="col-md-4 col-6 mb-3">
+              <div className="col-md-4 col-6 mb-3" key={country.name}>
                 <CountriesComponent src={country.src} name={country.name} />
               </div>
             ))}
@@ -149,29 +148,33 @@ export default function Language() {
           </h2>
         </div>
         <div className="row w-100 p-md-5 p-2" style={{ maxWidth: "1300px" }}>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 mb-3">
             <FeatureCard
+              bgColor="rgba(255,255,255, 0.75)"
               title="Learn Anytime, Anywhere"
               description="Our app-based live classes offer the flexibility to learn from the comfort of your home or on the go. Engage with expert instructors in real-time, participate in interactive sessions, and get your questions answered instantly."
               featureImage="/assets/Language/Feature1.svg"
             />
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 mb-3">
             <FeatureCard
+              bgColor="rgba(255,255,255, 0.75)"
               title="Personalized Learning Experience"
               description="Stay on top of your progress with our individual performance tracking system. Receive detailed feedback, track your improvements, and get personalized recommendations to help you achieve your language learning goals efficiently."
               featureImage="/assets/Language/Feature2.svg"
             />
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 mb-3">
             <FeatureCard
+              bgColor="rgba(255,255,255, 0.75)"
               title="Be Exam-Ready"
               description="Prepare for language proficiency exams with confidence. Our exam preparation sessions, complete with mock tests, simulate real exam conditions and provide you with the practice you need to excel."
               featureImage="/assets/Language/Feature3.svg"
             />
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 mb-3">
             <FeatureCard
+              bgColor="rgba(255,255,255, 0.75)"
               title="Never Miss a Lesson"
               description="Revisit and review your classes at any time with our recorded sessions. This feature allows you to reinforce your learning, revise key concepts, and ensure you have a thorough understanding of the material."
               featureImage="/assets/Language/Feature4.svg"

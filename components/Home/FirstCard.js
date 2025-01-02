@@ -71,7 +71,7 @@ const FirstCard = () => {
         <div className="my-3" />
         <div className="d-flex justify-content-center w-100">
           <div className="d-flex justify-content-center flex-column">
-            <button className="btn btn-primary mt-md-5 px-5 py-2 appear">
+            <button className="btn btn-primary mt-md-5 px-5 py-2 appear text-white">
               Call now
             </button>
             <span className="pt-3 text-center appear">Learn more</span>

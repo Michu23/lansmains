@@ -12,9 +12,16 @@ import Footer from "@/components/Common/Footer";
 
 export default function Home() {
   const features = [
-    "Create a flexible study schedule that fits seamlessly into your busy life.",
-    "Utilize our experienced mentors, videos, quizzes, and study materials.",
-    "Join our community of language learners for practicing and networking.",
+    "Learn at your convenience with our morning, evening, and weekend batches—ideal for students and working professionals, our classes fit your routine perfectly.",
+    "Learn from the best! Our experienced trainers hold the highest level of German language certification (C2), ensuring top-quality education and real-world insights.",
+    "Affordable pricing with high-value courses, ensuring that learning German is accessible without compromising on quality.",
+    // "Experience interactive learning with live classes, group discussions, and practical exercises, making language learning fun and effective.",
+  ];
+
+  const features2 = [
+    "Secure your career in Germany with our dedicated job placement services, connecting you with top healthcare institutions, corporate firms, and more.",
+    "Our fast-track programs complete language training and job placement in 6 to 9 months, speeding up your employment in Germany.",
+    "Join thousands of successful candidates who have built thriving careers in Germany through our language and placement programs.",
   ];
   return (
     <div className="">
@@ -57,16 +64,16 @@ export default function Home() {
           <div className="row">
             <div className="col-12 col-sm-6 d-flex justify-content-end">
               <HomeCards
-                title="Master New Languages at Your Own Pace 🇩🇪🇪🇸🇮🇹"
+                title="Join India’s No. 1 German Language Institute 🇩🇪"
                 bannerSrc="/assets/Banner2.png"
                 features={features}
               />
             </div>
             <div className="col-12 col-sm-6">
               <HomeCards
-                title="Master New Languages at Your Own Pace 🇩🇪🇪🇸🇮🇹"
+                title="Get Placed Abroad with Trust and Confidence through Lanstitut!"
                 bannerSrc="/assets/Banner2.png"
-                features={features}
+                features={features2}
               />
             </div>
           </div>
@@ -87,18 +94,30 @@ export default function Home() {
           <p
             className="para p-2"
             style={{
-              maxWidth: "800px",
+              maxWidth: "900px",
               lineHeight: `2`,
               marginTop: "20px",
               marginBottom: "10px",
+              fontWeight: "400",
             }}
           >
-            At Lanstitut, we believe in transforming your career with our
-            innovative and proven method. Our approach combines efficiency,
-            engagement, and personalization to ensure you achieve your goals.
+            Take your German skills from beginner (A1) to advanced (B2) with our
+            structured, step-by-step curriculum. Build a strong foundation in
+            speaking, reading, writing, and listening through engaging live
+            sessions, group discussions, and role-plays. Our certified trainers
+            provide personalized feedback, tailoring lessons to your learning
+            pace and style.
             <br />
             <br />
-            Here’s how we do it:
+            We emphasize real-world communication, combining online and offline
+            resources for flexible learning that fits your schedule. Track your
+            progress with regular assessments and gain valuable cultural
+            insights to prepare for life in Germany.
+            <br />
+            <br />
+            With a track record of successful placements, our program not only
+            boosts your language proficiency but also equips you for job
+            interviews and seamless career transitions in Germany.
           </p>
         </div>
         <div className="container">

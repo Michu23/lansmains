@@ -7,7 +7,7 @@ import Benefits from "@/components/Placements/Benefits";
 import Roadmap from "@/components/Placements/Roadmap";
 import Footer from "@/components/Common/Footer";
 
-export default function Home() {
+export default function Placements() {
   return (
     <div className="">
       <div className="first-card w-100 position-relative">

@@ -6,7 +6,7 @@ function HomeCards({ title, bannerSrc, features, onLearnMore, onCallNow }) {
       <div
         className="bsbs text-black text-start position-relative"
         style={{
-          maxWidth: "460px",
+          maxWidth: "480px",
         }}
       >
         <div className="p-3">
@@ -22,7 +22,14 @@ function HomeCards({ title, bannerSrc, features, onLearnMore, onCallNow }) {
           <h3 className="title mt-3">{title}</h3>
           <ul className="mb-4 mt-2 p-0">
             {features.map((feature) => (
-              <li className="mb-2" key={feature}>
+              <li
+                className="my-3 ps-3"
+                key={feature}
+                style={{
+                  borderLeft: "1px solid #045395",
+                  fontWeight: "500",
+                }}
+              >
                 {feature}
               </li>
             ))}
@@ -35,7 +42,7 @@ function HomeCards({ title, bannerSrc, features, onLearnMore, onCallNow }) {
               className="btn btn-outline-secondary px-4 py-1"
               onClick={onCallNow}
             >
-              <p className="button-text m-0">Call now</p>
+              <p className="button-text text-white m-0">Call now</p>
             </button>
           </div>
         </div>

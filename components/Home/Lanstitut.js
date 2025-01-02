@@ -59,24 +59,33 @@ const Lanstitut = () => {
         <p
           className="para p-2"
           style={{
-            maxWidth: "800px",
+            maxWidth: "900px",
             lineHeight: `2`,
             marginTop: "20px",
-            marginBottom: "40px",
+            fontWeight: "400",
           }}
         >
-          Join a thriving community of healthcare professionals with Lanstitut.
-          Our platform helps you overcome career challenges, from mastering a
-          new language to navigating international job requirements.
+          Lanstitut is India's leading German Language Institute, and you will
+          join a dynamic community of healthcare professionals. Our platform
+          helps you in resolving career problems ranging from learning a new
+          language to handling foreign job requirements.
           <br />
-          We offer tailored support and upskilling courses to prepare you for
-          your dream medical job abroad. Our customized programs include
-          intensive language training and placement assistance, ensuring you're
-          well-equipped for certification and job placement. With Lanstitut,
-          achieve your career goals and expand your horizons.
+          <br />
+          We provide targeted support and upskilling courses to help you prepare
+          for your ideal medical job overseas. Our customised courses include
+          rigorous language instruction and placement help, ensuring that you
+          are well-prepared for certification and job placement.
+          <br />
+          <br />
+          With Lanstitut, you may attain your job plans and widen your horizons.
+          10,000 successful students and ranks among India's top five language
+          learning institutes.
         </p>
       </div>
-      <div className="row w-100 mt-0 mt-md-5 p-md-5 p-2" style={{ maxWidth: "1300px" }}>
+      <div
+        className="row w-100 mt-0 mt-md-3 p-md-5 p-2"
+        style={{ maxWidth: "1300px" }}
+      >
         <div className="col-md-3 boom">
           <InfoCard
             icon="/icons/hospital.svg"
