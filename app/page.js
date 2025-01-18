@@ -58,7 +58,7 @@ export default function Home() {
         <div>
           <IconCombo name="Step 1:" />
           <h2 className="component-title">Shape your Career</h2>
-          <p className="para">Let’s start with how we can help you.</p>
+          <p className="para">Let’s start with how we can help you..</p>
         </div>
         <div className="container">
           <div className="row">
@@ -67,6 +67,7 @@ export default function Home() {
                 title="Join India’s No. 1 German Language Institute 🇩🇪"
                 bannerSrc="/assets/Banner2.png"
                 features={features}
+                href="/language"
               />
             </div>
             <div className="col-12 col-sm-6">
@@ -74,6 +75,7 @@ export default function Home() {
                 title="Get Placed Abroad with Trust and Confidence through Lanstitut!"
                 bannerSrc="/assets/Banner2.png"
                 features={features2}
+                href="/placements"
               />
             </div>
           </div>

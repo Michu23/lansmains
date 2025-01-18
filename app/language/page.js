@@ -104,7 +104,7 @@ export default function Language() {
               <CecrMethodTile
                 bgColor="rgba(4, 83, 149, 0.50)"
                 isOpened
-                title="A : ELEMENTARY USE OF LANGUAGE"
+                title="A : BEGINNER"
                 firstlevelheading="Level A1:"
                 firstleveldesc="Can understand and use familiar, everyday expressions and very simple sentences, which relate to the satisfying of concrete needs. Can introduce him/herself and others as well as ask others about themselves."
                 secondlevelheading="Level A2:"
@@ -114,7 +114,7 @@ export default function Language() {
             <div className="col-12">
               <CecrMethodTile
                 bgColor="rgba(4, 83, 149, 0.75)"
-                title="B : INDEPENDENT LANGUAGE USE"
+                title="B : INTERMEDIATE"
                 firstlevelheading="Level B1:"
                 firstleveldesc="Can understand the main points when clear, standard language is used and the focus is on familiar topics associated with work, school, leisure time, etc. Can deal with most situations typically encountered when traveling in the language region."
                 secondlevelheading="Level B2:"
@@ -124,7 +124,7 @@ export default function Language() {
             <div className="col-12">
               <CecrMethodTile
                 bgColor="#045395"
-                title="C : AUTONOMOUS LANGUAGE ABILITY"
+                title="C : PROFICIENT"
                 firstlevelheading="Level C1:"
                 firstleveldesc="Can understand a wide range of demanding, longer texts, and recognize implicit meaning. Can express him/herself fluently and spontaneously without much obvious searching for expressions."
                 secondlevelheading="Level C2:"

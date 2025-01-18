@@ -1,7 +1,7 @@
 import React from "react";
 
-const Roles = () => {
-  return <div className="role-box mb-3">Roles</div>;
+const Roles = ({ role }) => {
+  return <div className="role-box mb-3">{role}</div>;
 };
 
 export default Roles;

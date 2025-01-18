@@ -1,6 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
-function HomeCards({ title, bannerSrc, features, onLearnMore, onCallNow }) {
+function HomeCards({
+  title,
+  bannerSrc,
+  features,
+  onLearnMore,
+  onCallNow,
+  href,
+}) {
   return (
     <div className="p-2 text-white text-center position-relative">
       <div
@@ -35,9 +43,14 @@ function HomeCards({ title, bannerSrc, features, onLearnMore, onCallNow }) {
             ))}
           </ul>
           <div className="d-flex gap-2">
-            <button className="btn btn-primary px-4 py-1" onClick={onLearnMore}>
-              <p className="button-text text-white m-0">Learn more</p>
-            </button>
+            <Link href={href}>
+              <button
+                className="btn btn-primary px-4 py-1"
+                onClick={onLearnMore}
+              >
+                <p className="button-text text-white m-0">Learn more</p>
+              </button>
+            </Link>
             <button
               className="btn btn-outline-secondary px-4 py-1"
               onClick={onCallNow}
