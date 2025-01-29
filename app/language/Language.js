@@ -66,7 +66,7 @@ export default function Language() {
           </div>
           <div className="d-flex justify-content-center w-100">
             <div className="d-flex justify-content-center flex-column">
-              <button className="btn btn-primary mt-md-5 px-5 py-2">
+              <button className="btn btn-primary mt-md-3 px-5 py-2">
                 Talk to Our Language Expert
               </button>
               <span className="pt-3 text-center">Learn more</span>

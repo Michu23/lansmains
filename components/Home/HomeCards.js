@@ -55,7 +55,7 @@ function HomeCards({
               className="btn btn-outline-secondary px-4 py-1"
               onClick={onCallNow}
             >
-              <p className="button-text text-white m-0">Call now</p>
+              <p className="button-text m-0">Call now</p>
             </button>
           </div>
         </div>

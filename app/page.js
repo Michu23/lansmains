@@ -10,6 +10,79 @@ import Lanstitut from "@/components/Home/Lanstitut";
 import FirstCard from "@/components/Home/FirstCard";
 import Footer from "@/components/Common/Footer";
 
+export async function generateMetadata() {
+  const Pagedata = {
+    heading: "Lanstitut - German Language Institute & Job Placement Services",
+    description:
+      "Learn German from certified C2 level trainers and secure your career in Germany. Join India's leading German language institute offering flexible batches and placement services.",
+    tags: "german language, language institute, german courses, job placement, germany jobs, german classes, language learning, german certification, C2 trainers, career in germany, german language course, study in germany, work in germany, german language institute, language school, german tutoring, german lessons, german language classes, german language learning, german language certification",
+    author: "Lanstitut",
+    meta_data: {
+      blogOptionImg: "/assets/MainImg.png",
+    },
+  };
+
+  return {
+    title: Pagedata.heading,
+    keywords: Pagedata.tags,
+    description: Pagedata.description,
+    generator: "Next.js",
+    applicationName: "Lanstitut",
+    referrer: "origin-when-cross-origin",
+    authors: [
+      { name: "Lanstitut" },
+      { name: Pagedata.author, url: "https://lanstitut.com" },
+    ],
+    publisher: "Lanstitut",
+    category: "Education",
+
+    metadataBase: new URL("https://lanstitut.com"),
+    alternates: {
+      canonical: "https://lanstitut.com",
+    },
+    robots: {
+      index: true,
+      follow: true,
+      imageIndex: true,
+      maxSnippet: -1,
+      maxImagePreview: "large",
+      maxVideoPreview: -1,
+    },
+
+    openGraph: {
+      title: Pagedata.heading,
+      description: Pagedata.description,
+      url: "https://lanstitut.com",
+      siteName: "Lanstitut",
+      images: [
+        {
+          url: Pagedata.meta_data.blogOptionImg,
+          width: 1200,
+          height: 630,
+          alt: "Lanstitut German Language Institute 🇩🇪",
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: Pagedata.heading,
+      description: Pagedata.description,
+      images: [Pagedata.meta_data.blogOptionImg],
+    },
+
+    verification: {
+      google: "google-site-verification-code",
+      facebook: "facebook-domain-verification",
+      other: {
+        me: ["contact@lanstitut.com", "https://lanstitut.com"],
+      },
+    },
+  };
+}
+
 export default function Home() {
   const features = [
     "Learn at your convenience with our morning, evening, and weekend batches—ideal for students and working professionals, our classes fit your routine perfectly.",
@@ -42,9 +115,9 @@ export default function Home() {
         >
           <Image
             src="/assets/MainImg.png"
-            layout="fill" // Ensures the image fills the container
-            objectFit="cover" // Ensures the image covers the container while maintaining aspect ratio
-            objectPosition="center" // Centers the image within the container
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             alt="Main Image"
           />
         </div>
@@ -58,13 +131,13 @@ export default function Home() {
         <div>
           <IconCombo name="Step 1:" />
           <h2 className="component-title">Shape your Career</h2>
-          <p className="para">Let’s start with how we can help you..</p>
+          <p className="para">Let's start with how we can help you..</p>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-6 d-flex justify-content-end">
               <HomeCards
-                title="Join India’s No. 1 German Language Institute 🇩🇪"
+                title="Join India's No. 1 German Language Institute 🇩🇪"
                 bannerSrc="/assets/Banner2.png"
                 features={features}
                 href="/language"

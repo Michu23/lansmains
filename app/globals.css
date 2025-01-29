@@ -149,7 +149,7 @@ li {
   font-size: clamp(
     15px,
     2vw,
-    16px
+    15px
   ) !important; /* Minimum 14px, scales with viewport, max 30px */
   font-style: normal;
   font-weight: 400;
